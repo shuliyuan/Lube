@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="联系蜀利元智能润滑器 - 获取产品报价、技术咨询、在线留言，24小时内回复">
-  <title>联系我们 - 蜀利元智能润滑器</title>
+  <title data-i18n="page.title_contact">联系我们 - 蜀利元智能润滑器</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/i18n.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23C41230'/><text y='22' x='5' font-size='18' fill='white' font-weight='bold'>蜀</text></svg>">
@@ -448,23 +449,23 @@
       <img src="assets/images/logo.png" alt="蜀利元智能润滑器" class="logo-img" height="40">
     </a>
     <nav class="navbar-nav">
-      <a href="index.html" class="nav-link">首页</a>
-      <a href="products.html" class="nav-link">产品中心</a>
-      <a href="knowledge.html" class="nav-link">技术知识</a>
-      <a href="solutions.html" class="nav-link">解决方案</a>
-      <a href="contact.html" class="nav-link active">联系我们</a>
+      <a href="index.html" class="nav-link" data-i18n="nav.home">首页</a>
+      <a href="products.html" class="nav-link" data-i18n="nav.products">产品中心</a>
+      <a href="knowledge.html" class="nav-link" data-i18n="nav.knowledge">技术知识</a>
+      <a href="solutions.html" class="nav-link" data-i18n="nav.solutions">解决方案</a>
+      <a href="contact.html" class="nav-link active" data-i18n="nav.contact">联系我们</a>
     </nav>
-    <div class="navbar-cta"><a href="http://shuliyuan.com.cn/" target="_blank" class="btn btn-primary">控制中心</a></div>
-    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    <div class="navbar-cta"><a href="http://shuliyuan.com.cn/" target="_blank" class="btn btn-primary" data-i18n="nav.control_center">控制中心</a></div>
+    <button class="hamburger" id="hamburger" data-i18n-title="nav.menu"><span></span><span></span><span></span></button>
   </div>
 </nav>
 <div class="mobile-menu" id="mobileMenu">
-  <a href="index.html" class="nav-link">首页</a>
-  <a href="products.html" class="nav-link">产品中心</a>
-  <a href="knowledge.html" class="nav-link">技术知识</a>
-  <a href="solutions.html" class="nav-link">解决方案</a>
-  <a href="contact.html" class="nav-link active">联系我们</a>
-  <a href="http://shuliyuan.com.cn/" target="_blank" class="btn btn-primary">控制中心</a>
+  <a href="index.html" class="nav-link" data-i18n="nav.home">首页</a>
+  <a href="products.html" class="nav-link" data-i18n="nav.products">产品中心</a>
+  <a href="knowledge.html" class="nav-link" data-i18n="nav.knowledge">技术知识</a>
+  <a href="solutions.html" class="nav-link" data-i18n="nav.solutions">解决方案</a>
+  <a href="contact.html" class="nav-link active" data-i18n="nav.contact">联系我们</a>
+  <a href="http://shuliyuan.com.cn/" target="_blank" class="btn btn-primary" data-i18n="nav.control_center">控制中心</a>
 </div>
 
 <!-- ===== 页面Banner ===== -->
@@ -472,10 +473,10 @@
   <div class="container">
     <div class="page-hero-content fade-up">
       <div class="breadcrumb">
-        <a href="index.html">首页</a><span class="sep">›</span><span>联系我们</span>
+        <a href="index.html" data-i18n="nav.home">首页</a><span class="sep">›</span><span data-i18n="contact.breadcrumb">联系我们</span>
       </div>
-      <h1>联系我们</h1>
-      <p>专业技术团队为您提供一对一咨询服务<br>24小时内响应您的每一个问题</p>
+      <h1 data-i18n="contact.title">联系我们</h1>
+      <p data-i18n-html="contact.subtitle">专业技术团队为您提供一对一咨询服务<br>24小时内响应您的每一个问题</p>
     </div>
   </div>
 </section>
@@ -483,40 +484,40 @@
 
 
 <!-- ===== 客服微信 ===== -->
-<section class="wechat-section">
+<section class="wechat-section" id="wechat">
   <div class="container">
     <div class="section-header fade-up">
-      <span class="section-label">微信咨询</span>
-      <h2 class="section-title">扫码添加<span>客服微信</span></h2>
+      <span class="section-label" data-i18n="contact.wechat_section_label">微信咨询</span>
+      <h2 class="section-title">扫码添加<span data-i18n="contact.wechat_h2_highlight">客服微信</span></h2>
       <div class="section-divider" style="margin:20px auto 20px"></div>
-      <p class="section-subtitle" style="margin:0 auto">微信在线客服，响应更快、沟通更便捷</p>
+      <p class="section-subtitle" style="margin:0 auto" data-i18n="contact.wechat_scan_subtitle">微信在线客服，响应更快、沟通更便捷</p>
     </div>
 
     <div class="wechat-inner fade-up">
       <div class="wechat-qr-card">
         <div class="wechat-qr-img">
-          <img src="assets/images/wechat-qr.png" alt="蜀利元客服微信二维码">
+          <img src="assets/images/wechat-qr.png" alt="蜀利元客服微信二维码" data-i18n-alt="contact.wechat_qr_alt">
         </div>
         <div class="wechat-qr-label">
           <svg viewBox="0 0 24 24" fill="#07C160" width="18" height="18"><path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 0 1 .213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.326.326 0 0 0 .167-.054l1.903-1.114a.864.864 0 0 1 .717-.098 10.16 10.16 0 0 0 2.837.403c.276 0 .543-.027.811-.05-.857-2.578.157-4.972 1.932-6.446 1.703-1.415 3.882-1.98 5.853-1.838-.576-3.583-4.196-6.348-8.596-6.348zM5.785 5.991c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178A1.17 1.17 0 0 1 4.623 7.17c0-.651.52-1.18 1.162-1.18zm5.813 0c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178 1.17 1.17 0 0 1-1.162-1.178c0-.651.52-1.18 1.162-1.18zm3.97 3.338c-2.031 0-3.898.73-5.309 1.9-1.663 1.38-2.567 3.27-2.567 5.364 0 1.182.326 2.34.934 3.356a.535.535 0 0 1 .05.51l-.29 1.103a.54.54 0 0 0 .527.668.527.527 0 0 0 .263-.07l1.428-.835a.777.777 0 0 1 .642-.088 7.645 7.645 0 0 0 2.322.363c4.077 0 7.383-2.943 7.383-6.567 0-3.625-3.306-6.568-7.383-6.568zm-2.15 3.597c.485 0 .879.4.879.893a.886.886 0 0 1-.879.893.886.886 0 0 1-.879-.893c0-.493.394-.893.88-.893zm4.3 0c.486 0 .879.4.879.893a.886.886 0 0 1-.879.893.886.886 0 0 1-.879-.893c0-.493.393-.893.879-.893z"/></svg>
-          微信扫一扫添加
+          <span data-i18n="contact.wechat_scan_label">微信扫一扫添加</span>
         </div>
       </div>
       <div class="wechat-info">
-        <h3>微信在线咨询</h3>
-        <p>扫描左侧二维码添加蜀利元客服微信，<br>专业工程师在线为您解答润滑技术问题，<br>提供产品选型建议和定制化方案。</p>
+        <h3 data-i18n="contact.wechat_online_heading">微信在线咨询</h3>
+        <p data-i18n="contact.wechat_online_desc">扫描左侧二维码添加蜀利元客服微信，专业工程师在线为您解答润滑技术问题，提供产品选型建议和定制化方案。</p>
         <div class="wechat-steps">
           <div class="wechat-step">
             <div class="wechat-step-num">1</div>
-            <span>微信扫一扫，添加客服好友</span>
+            <span data-i18n="contact.wechat_step1">微信扫一扫，添加客服好友</span>
           </div>
           <div class="wechat-step">
             <div class="wechat-step-num">2</div>
-            <span>描述您的设备润滑需求</span>
+            <span data-i18n="contact.wechat_step2">描述您的设备润滑需求</span>
           </div>
           <div class="wechat-step">
             <div class="wechat-step-num">3</div>
-            <span>获取专属解决方案与报价</span>
+            <span data-i18n="contact.wechat_step3">获取专属解决方案与报价</span>
           </div>
         </div>
       </div>
@@ -535,28 +536,28 @@
         <div class="quick-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
         </div>
-        <h4>电话咨询</h4>
+        <h4 data-i18n="contact.quick_phone_title">电话咨询</h4>
         <div class="contact-val">028-88417995</div>
-        <div class="contact-note">周一至周五 9:00 - 18:00</div>
-        <a href="tel:02888417995" class="btn btn-secondary btn-sm" style="margin-top:16px;width:100%;justify-content:center">立即拨打</a>
+        <div class="contact-note" data-i18n="contact.quick_phone_desc">周一至周五 9:00 - 18:00</div>
+        <a href="tel:02888417995" class="btn btn-secondary btn-sm" style="margin-top:16px;width:100%;justify-content:center" data-i18n="contact.quick_btn_call">立即拨打</a>
       </div>
       <div class="quick-contact-card fade-up fade-up-delay-1">
         <div class="quick-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
         </div>
-        <h4>邮件咨询</h4>
+        <h4 data-i18n="contact.quick_email_title">邮件咨询</h4>
         <div class="contact-val">sales@shuliyuan.com.cn</div>
-        <div class="contact-note">48小时内回复您的邮件</div>
-        <a href="mailto:sales@shuliyuan.com.cn" class="btn btn-secondary btn-sm" style="margin-top:16px;width:100%;justify-content:center">发送邮件</a>
+        <div class="contact-note" data-i18n="contact.quick_email_desc">48小时内回复您的邮件</div>
+        <a href="mailto:sales@shuliyuan.com.cn" class="btn btn-secondary btn-sm" style="margin-top:16px;width:100%;justify-content:center" data-i18n="contact.quick_btn_email">发送邮件</a>
       </div>
       <div class="quick-contact-card fade-up fade-up-delay-2">
         <div class="quick-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
         </div>
-        <h4>在线留言</h4>
-        <div class="contact-val" style="font-size:13px;font-weight:600">填写下方留言表单</div>
-        <div class="contact-note">24小时内电话或邮件回复</div>
-        <a href="#contactForm" class="btn btn-primary btn-sm" style="margin-top:16px;width:100%;justify-content:center">立即留言</a>
+        <h4 data-i18n="contact.quick_address_title">在线留言</h4>
+        <div class="contact-val" style="font-size:13px;font-weight:600" data-i18n="contact.form_intro">填写下方留言表单</div>
+        <div class="contact-note" data-i18n="contact.quick_email_desc">24小时内电话或邮件回复</div>
+        <a href="#contactForm" class="btn btn-primary btn-sm" style="margin-top:16px;width:100%;justify-content:center" data-i18n="contact.quick_btn_message">立即留言</a>
       </div>
     </div>
   </div>
@@ -566,30 +567,30 @@
 <section class="dealer-section" id="dealerSection">
   <div class="container">
     <div class="section-header fade-up">
-      <span class="section-label">授权渠道</span>
-      <h2 class="section-title">经销<span>商查询</span></h2>
+      <span class="section-label" data-i18n="contact.dealer_section_label">授权渠道</span>
+      <h2 class="section-title" data-i18n-html="contact.dealer_title_html">经销<span>商查询</span></h2>
       <div class="section-divider" style="margin:20px auto 20px"></div>
-      <p class="section-subtitle" style="margin:0 auto">查找离您最近的授权经销商，获取本地化服务与技术支持</p>
+      <p class="section-subtitle" style="margin:0 auto" data-i18n="contact.dealer_subtitle">查找离您最近的授权经销商，获取本地化服务与技术支持</p>
     </div>
 
     <!-- 搜索过滤栏 -->
     <div class="dealer-header-wrap fade-up">
       <div class="dealer-search-bar">
-        <input type="text" class="dealer-search-input" id="dealerSearch" placeholder="输入城市或经销商名称搜索...">
+        <input type="text" class="dealer-search-input" id="dealerSearch" placeholder="输入城市或经销商名称搜索..." data-i18n-placeholder="contact.dealer_placeholder">
         <select class="dealer-select" id="dealerRegion">
-          <option value="">全部区域</option>
-          <option value="华东">华东</option>
-          <option value="华南">华南</option>
-          <option value="华北">华北</option>
-          <option value="华中">华中</option>
-          <option value="西南">西南</option>
-          <option value="西北">西北</option>
-          <option value="东北">东北</option>
+          <option value="" data-i18n="contact.dealer_all_region">全部区域</option>
+          <option value="华东" data-i18n="dealer.region_east">华东</option>
+          <option value="华南" data-i18n="dealer.region_south">华南</option>
+          <option value="华北" data-i18n="dealer.region_north">华北</option>
+          <option value="华中" data-i18n="dealer.region_central">华中</option>
+          <option value="西南" data-i18n="dealer.region_west">西南</option>
+          <option value="西北" data-i18n="dealer.region_northwest">西北</option>
+          <option value="东北" data-i18n="dealer.region_northeast">东北</option>
         </select>
         <select class="dealer-select" id="dealerType">
-          <option value="">全部类型</option>
-          <option value="auth">授权经销商</option>
-          <option value="partner">合作伙伴</option>
+          <option value="" data-i18n="contact.dealer_all_type">全部类型</option>
+          <option value="auth" data-i18n="contact.dealer_auth">授权经销商</option>
+          <option value="partner" data-i18n="contact.dealer_partner">合作伙伴</option>
         </select>
       </div>
       <div class="dealer-count" id="dealerCount">共 <strong>6</strong> 家经销商</div>
@@ -599,8 +600,8 @@
     <div class="dealer-grid fade-up" id="dealerGrid">
       <div class="dealer-card" data-region="华东" data-type="auth" data-search="上海 常旭精密轴承">
         <div class="dealer-card-header">
-          <div class="dealer-name">上海常旭精密轴承有限公司</div>
-          <span class="dealer-badge auth">授权经销商</span>
+          <div class="dealer-name" data-i18n="dealer.name_1">上海常旭精密轴承有限公司</div>
+          <span class="dealer-badge auth" data-i18n="contact.dealer_auth">授权经销商</span>
         </div>
         <div class="dealer-info-row">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B7280" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -613,19 +614,19 @@
         <div class="dealer-actions">
           <a href="tel:021-56387567" class="dealer-btn tel">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            电话咨询
+            <span data-i18n="dealer.btn_call">电话咨询</span>
           </a>
           <a href="https://uri.amap.com/search?keyword=上海市闵北路88弄" target="_blank" rel="noopener noreferrer" class="dealer-btn map">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            查看地图
+            <span data-i18n="dealer.btn_map">查看地图</span>
           </a>
         </div>
       </div>
 
       <div class="dealer-card" data-region="华东" data-type="partner" data-search="杭州 瑛睿机械科技">
         <div class="dealer-card-header">
-          <div class="dealer-name">杭州瑛睿机械科技有限公司</div>
-          <span class="dealer-badge partner">合作伙伴</span>
+          <div class="dealer-name" data-i18n="dealer.name_2">杭州瑛睿机械科技有限公司</div>
+          <span class="dealer-badge partner" data-i18n="contact.dealer_partner">合作伙伴</span>
         </div>
         <div class="dealer-info-row">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B7280" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -638,19 +639,19 @@
         <div class="dealer-actions">
           <a href="tel:19980813227" class="dealer-btn tel">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            电话咨询
+            <span data-i18n="dealer.btn_call">电话咨询</span>
           </a>
           <a href="https://uri.amap.com/search?keyword=杭州市临安区青山湖街道科技大道2500号" target="_blank" rel="noopener noreferrer" class="dealer-btn map">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            查看地图
+            <span data-i18n="dealer.btn_map">查看地图</span>
           </a>
         </div>
       </div>
 
       <div class="dealer-card" data-region="华南" data-type="auth" data-search="厦门 东南宝智能科技">
         <div class="dealer-card-header">
-          <div class="dealer-name">厦门东南宝智能科技有限公司</div>
-          <span class="dealer-badge auth">授权经销商</span>
+          <div class="dealer-name" data-i18n="dealer.name_3">厦门东南宝智能科技有限公司</div>
+          <span class="dealer-badge auth" data-i18n="contact.dealer_auth">授权经销商</span>
         </div>
         <div class="dealer-info-row">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B7280" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -663,19 +664,19 @@
         <div class="dealer-actions">
           <a href="tel:19381611448" class="dealer-btn tel">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            电话咨询
+            <span data-i18n="dealer.btn_call">电话咨询</span>
           </a>
           <a href="https://uri.amap.com/search?keyword=厦门市集美区杏林湾路496号" target="_blank" rel="noopener noreferrer" class="dealer-btn map">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            查看地图
+            <span data-i18n="dealer.btn_map">查看地图</span>
           </a>
         </div>
       </div>
 
       <div class="dealer-card" data-region="华北" data-type="partner" data-search="莱州 诚亚达商贸">
         <div class="dealer-card-header">
-          <div class="dealer-name">莱州诚亚达商贸有限公司</div>
-          <span class="dealer-badge partner">合作伙伴</span>
+          <div class="dealer-name" data-i18n="dealer.name_4">莱州诚亚达商贸有限公司</div>
+          <span class="dealer-badge partner" data-i18n="contact.dealer_partner">合作伙伴</span>
         </div>
         <div class="dealer-info-row">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B7280" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -688,19 +689,19 @@
         <div class="dealer-actions">
           <a href="tel:18353587927" class="dealer-btn tel">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            电话咨询
+            <span data-i18n="dealer.btn_call">电话咨询</span>
           </a>
           <a href="https://uri.amap.com/search?keyword=山东省烟台市莱州市程郭镇东岭路安邦名人家园" target="_blank" rel="noopener noreferrer" class="dealer-btn map">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            查看地图
+            <span data-i18n="dealer.btn_map">查看地图</span>
           </a>
         </div>
       </div>
 
       <div class="dealer-card" data-region="华北" data-type="partner" data-search="北矿科技">
         <div class="dealer-card-header">
-          <div class="dealer-name">北矿科技股份有限公司</div>
-          <span class="dealer-badge partner">合作伙伴</span>
+          <div class="dealer-name" data-i18n="dealer.name_5">北矿科技股份有限公司</div>
+          <span class="dealer-badge partner" data-i18n="contact.dealer_partner">合作伙伴</span>
         </div>
         <div class="dealer-info-row">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B7280" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -713,19 +714,19 @@
         <div class="dealer-actions">
           <a href="tel:010-63299988" class="dealer-btn tel">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            电话咨询
+            <span data-i18n="dealer.btn_call">电话咨询</span>
           </a>
           <a href="https://uri.amap.com/search?keyword=北京市丰台区南四环西路188号18区23号楼" target="_blank" rel="noopener noreferrer" class="dealer-btn map">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            查看地图
+            <span data-i18n="dealer.btn_map">查看地图</span>
           </a>
         </div>
       </div>
 
       <div class="dealer-card" data-region="西北" data-type="partner" data-search="西安 科峰智能">
         <div class="dealer-card-header">
-          <div class="dealer-name">科峰智能科技（西安）有限公司</div>
-          <span class="dealer-badge partner">合作伙伴</span>
+          <div class="dealer-name" data-i18n="dealer.name_6">科峰智能科技（西安）有限公司</div>
+          <span class="dealer-badge partner" data-i18n="contact.dealer_partner">合作伙伴</span>
         </div>
         <div class="dealer-info-row">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B7280" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -738,11 +739,11 @@
         <div class="dealer-actions">
           <a href="tel:029-85236528" class="dealer-btn tel">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            电话咨询
+            <span data-i18n="dealer.btn_call">电话咨询</span>
           </a>
           <a href="https://uri.amap.com/search?keyword=西安市曲江新区芙蓉南路98号金地芙蓉世家" target="_blank" rel="noopener noreferrer" class="dealer-btn map">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            查看地图
+            <span data-i18n="dealer.btn_map">查看地图</span>
           </a>
         </div>
       </div>
@@ -751,7 +752,7 @@
     <!-- 空状态 -->
     <div class="dealer-empty fade-up" id="dealerEmpty" style="display:none">
       <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#C41230" stroke-width="1.5" opacity="0.4"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-      <p>未找到匹配的经销商，请调整筛选条件</p>
+      <p data-i18n="contact.dealer_no_result">未找到匹配的经销商，请调整筛选条件</p>
     </div>
   </div>
 </section>
@@ -762,8 +763,8 @@
       <!-- 左侧联系信息 -->
       <div class="fade-up">
         <div class="contact-info-card">
-          <h3>联系蜀利元</h3>
-          <p>我们期待与您沟通，为您的设备润滑管理提供专业解决方案</p>
+          <h3 data-i18n="contact.info_heading">联系蜀利元</h3>
+          <p data-i18n="contact.info_desc">我们期待与您沟通，为您的设备润滑管理提供专业解决方案</p>
           
           <div class="contact-info-list">
             <div class="contact-info-item">
@@ -771,7 +772,7 @@
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
               </div>
               <div>
-                <h5>联系电话</h5>
+                <h5 data-i18n="contact.info_phone_label">联系电话</h5>
                 <p>028-88417995</p>
               </div>
             </div>
@@ -780,7 +781,7 @@
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
               </div>
               <div>
-                <h5>电子邮箱</h5>
+                <h5 data-i18n="contact.info_email_label">电子邮箱</h5>
                 <p>sales@shuliyuan.com.cn</p>
               </div>
             </div>
@@ -789,8 +790,8 @@
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
               </div>
               <div>
-                <h5>公司地址</h5>
-                <p>四川省成都市龙泉驿区成龙大道中段1118号中物国际</p>
+                <h5 data-i18n="contact.info_address_label">公司地址</h5>
+                <p data-i18n-html="contact.info_address">成都市<br>龙泉驿区成龙大道中段1118号中物国际</p>
               </div>
             </div>
             <div class="contact-info-item">
@@ -798,8 +799,8 @@
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
               </div>
               <div>
-                <h5>工作时间</h5>
-                <p>周一至周五 9:00 - 18:00<br>节假日前提前咨询</p>
+                <h5 data-i18n="contact.info_hours_label">工作时间</h5>
+                <p data-i18n="contact.info_hours_text">周一至周五 9:00 - 18:00，节假日前提前咨询</p>
               </div>
             </div>
           </div>
@@ -808,17 +809,17 @@
           <div style="margin-top:32px;padding:20px;background:rgba(196,18,48,0.15);border-radius:var(--radius-md);border:1px solid rgba(196,18,48,0.2)">
             <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
               <svg viewBox="0 0 24 24" fill="none" stroke="#C41230" stroke-width="2" width="20" height="20"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-              <span style="font-weight:700;color:white;font-size:14px">服务承诺</span>
+              <span style="font-weight:700;color:white;font-size:14px" data-i18n="contact.service_commitment">服务承诺</span>
             </div>
             <ul style="display:flex;flex-direction:column;gap:6px">
               <li style="display:flex;gap:8px;font-size:13px;color:rgba(255,255,255,0.8)">
-                <span style="color:#C41230;flex-shrink:0">✓</span>在线留言 24小时内回复
+                <span style="color:#C41230;flex-shrink:0">✓</span><span data-i18n="contact.service_item1">在线留言 24小时内回复</span>
               </li>
               <li style="display:flex;gap:8px;font-size:13px;color:rgba(255,255,255,0.8)">
-                <span style="color:#C41230;flex-shrink:0">✓</span>免费提供行业润滑分析报告
+                <span style="color:#C41230;flex-shrink:0">✓</span><span data-i18n="contact.service_item2">免费提供行业润滑分析报告</span>
               </li>
               <li style="display:flex;gap:8px;font-size:13px;color:rgba(255,255,255,0.8)">
-                <span style="color:#C41230;flex-shrink:0">✓</span>专业工程师定制解决方案
+                <span style="color:#C41230;flex-shrink:0">✓</span><span data-i18n="contact.service_item3">专业工程师定制解决方案</span>
               </li>
             </ul>
           </div>
@@ -830,72 +831,72 @@
         <div class="contact-form-wrap">
           <!-- 表单内容 -->
           <div id="formContent">
-            <h3>在线留言咨询</h3>
-            <p>填写以下信息，我们将在24小时内与您联系，为您提供专属润滑解决方案</p>
+            <h3 data-i18n="contact.form_title">在线留言咨询</h3>
+            <p data-i18n="contact.form_subtitle">填写以下信息，我们将在24小时内与您联系，为您提供专属润滑解决方案</p>
             
             <form id="contactForm" novalidate>
               <div class="form-row">
                 <div class="form-group">
-                  <label class="form-label">
+                  <label class="form-label" data-i18n-html="contact.form_name">
                     姓名<span class="required">*</span>
                   </label>
-                  <input type="text" class="form-input" name="name" placeholder="请输入您的姓名" required>
+                  <input type="text" class="form-input" name="name" placeholder="请输入您的姓名" data-i18n-placeholder="contact.form_name_placeholder" required>
                   <div class="form-error"></div>
                 </div>
                 <div class="form-group">
-                  <label class="form-label">
+                  <label class="form-label" data-i18n-html="contact.form_company">
                     公司名称<span class="required">*</span>
                   </label>
-                  <input type="text" class="form-input" name="company" placeholder="请输入公司名称" required>
+                  <input type="text" class="form-input" name="company" placeholder="请输入公司名称" data-i18n-placeholder="contact.form_company_placeholder" required>
                   <div class="form-error"></div>
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group">
-                  <label class="form-label">
+                  <label class="form-label" data-i18n-html="contact.form_phone">
                     联系电话<span class="required">*</span>
                   </label>
-                  <input type="tel" class="form-input" name="phone" placeholder="请输入手机号码" required>
+                  <input type="tel" class="form-input" name="phone" placeholder="请输入手机号码" data-i18n-placeholder="contact.form_phone_placeholder" required>
                   <div class="form-error"></div>
                 </div>
                 <div class="form-group">
-                  <label class="form-label">
+                  <label class="form-label" data-i18n-html="contact.form_email">
                     电子邮箱<span class="required">*</span>
                   </label>
-                  <input type="email" class="form-input" name="email" placeholder="请输入邮箱地址" required>
+                  <input type="email" class="form-input" name="email" placeholder="请输入邮箱地址" data-i18n-placeholder="contact.form_email_placeholder" required>
                   <div class="form-error"></div>
                 </div>
               </div>
               <div class="form-group">
-                <label class="form-label">所属行业</label>
+                <label class="form-label" data-i18n="contact.form_industry_label">所属行业</label>
                 <select class="form-input form-select" name="industry">
-                  <option value="">请选择行业（可选）</option>
-                  <option>工业制造</option>
-                  <option>风力发电</option>
-                  <option>工程机械</option>
-                  <option>钢铁冶金</option>
-                  <option>矿山采掘</option>
-                  <option>港口物流</option>
-                  <option>食品生产</option>
-                  <option>轨道交通</option>
-                  <option>自动化设备</option>
-                  <option>其他行业</option>
+                  <option value="" data-i18n="contact.form_industry_default">请选择行业（可选）</option>
+                  <option data-i18n="contact.form_industry_1">工业制造</option>
+                  <option data-i18n="contact.form_industry_2">风力发电</option>
+                  <option data-i18n="contact.form_industry_3">工程机械</option>
+                  <option data-i18n="contact.form_industry_4">钢铁冶金</option>
+                  <option data-i18n="contact.form_industry_5">矿山采掘</option>
+                  <option data-i18n="contact.form_industry_6">港口物流</option>
+                  <option data-i18n="contact.form_industry_7">食品生产</option>
+                  <option data-i18n="contact.form_industry_8">轨道交通</option>
+                  <option data-i18n="contact.form_industry_9">自动化设备</option>
+                  <option data-i18n="contact.form_industry_10">其他行业</option>
                 </select>
               </div>
               <div class="form-group">
-                <label class="form-label">
+                <label class="form-label" data-i18n-html="contact.form_message">
                   需求描述<span class="required">*</span>
                 </label>
-                <textarea class="form-textarea" name="message" placeholder="请描述您的润滑需求、设备类型、数量等信息，我们将为您提供更精准的解决方案" required style="min-height:140px"></textarea>
+                <textarea class="form-textarea" name="message" placeholder="请描述您的润滑需求、设备类型、数量等信息，我们将为您提供更精准的解决方案" data-i18n-placeholder="contact.form_message_placeholder" required style="min-height:140px"></textarea>
                 <div class="form-error"></div>
               </div>
 
               <!-- 隐私说明 -->
-              <p style="font-size:12px;color:var(--text-muted);margin-bottom:16px;line-height:1.6">
-                提交即表示您同意我们通过您提供的联系方式与您取得联系。您的信息将被严格保密，不会用于任何商业目的。
+              <p style="font-size:12px;color:var(--text-muted);margin-bottom:16px;line-height:1.6" data-i18n-html="contact.form_privacy_html">
+                提交即表示您同意我们的<a href="#">隐私政策</a>
               </p>
 
-              <button type="submit" class="btn btn-primary form-submit">
+              <button type="submit" class="btn btn-primary form-submit" data-i18n="contact.form_submit">
                 提交咨询
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
               </button>
@@ -907,11 +908,11 @@
             <div class="success-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
             </div>
-            <h3 style="margin-bottom:12px">提交成功！</h3>
-            <p style="color:var(--text-muted);font-size:15px;line-height:1.75;margin-bottom:24px">感谢您的咨询！我们的专业工程师将在 <strong style="color:var(--brand-red)">24小时内</strong> 通过电话或邮件与您联系，为您提供专属润滑解决方案。</p>
+            <h3 style="margin-bottom:12px" data-i18n="contact.form_success">提交成功！</h3>
+            <p style="color:var(--text-muted);font-size:15px;line-height:1.75;margin-bottom:24px" data-i18n="contact.form_success_desc">感谢您的咨询！我们的专业工程师将在 24小时内 通过电话或邮件与您联系，为您提供专属润滑解决方案。</p>
             <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
-              <a href="products.html" class="btn btn-primary">了解产品详情</a>
-              <a href="solutions.html" class="btn btn-secondary">查看行业方案</a>
+              <a href="products.html" class="btn btn-primary" data-i18n="contact.form_success_btn1">了解产品详情</a>
+              <a href="solutions.html" class="btn btn-secondary" data-i18n="contact.form_success_btn2">查看行业方案</a>
             </div>
           </div>
         </div>
@@ -926,17 +927,17 @@
     <div id="companyMap"></div>
     <div class="map-info-overlay">
       <div>
-        <div class="address-text">四川省成都市龙泉驿区成龙大道中段1118号中物国际</div>
-        <div class="address-note">蜀利元智能润滑器 总部</div>
+        <div class="address-text" data-i18n-html="contact.map_address">成都市<br>龙泉驿区成龙大道中段1118号中物国际</div>
+        <div class="address-note" data-i18n="contact.address_note">蜀利元智能润滑器 总部</div>
       </div>
       <div class="map-actions">
         <a href="https://uri.amap.com/navigation?to=104.237,30.562,成都市龙泉驿区成龙大道中段1118号中物国际&mode=car&callnative=1" target="_blank" rel="noopener noreferrer" class="map-btn map-btn-nav">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
-          一键导航
+          <span data-i18n="contact.map_nav">一键导航</span>
         </a>
         <a href="https://uri.amap.com/marker?position=104.237,30.562&name=蜀利元智能润滑器&coordinate=gaode&callnative=1" target="_blank" rel="noopener noreferrer" class="map-btn map-btn-big">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          高德地图打开
+          <span data-i18n="contact.map_nav_amap">高德地图打开</span>
         </a>
       </div>
     </div>
@@ -945,52 +946,52 @@
 <section class="faq-section">
   <div class="container">
     <div class="section-header fade-up">
-      <span class="section-label">常见问题</span>
-      <h2 class="section-title">您可能想了解的<span>问题</span></h2>
+      <span class="section-label" data-i18n="contact.faq_title">常见问题</span>
+      <h2 class="section-title">您可能想了解的<span data-i18n="contact.faq_h2_highlight">问题</span></h2>
       <div class="section-divider" style="margin:20px auto 20px"></div>
     </div>
     <div class="faq-list fade-up">
       <div class="faq-item">
         <div class="faq-q">
-          S500H支持哪些类型的油脂？
+          <span data-i18n="contact.faq_q1">S500H支持哪些类型的油脂？</span>
           <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
         </div>
-        <div class="faq-a">S500H适用于NLGI 3#及以下的常规工业油脂，包括锂基脂、钙基脂、锂钙基脂等主流工业润滑脂。如需使用特殊油脂，建议联系技术人员确认兼容性。</div>
+        <div class="faq-a" data-i18n="contact.faq_a1">S500H适用于NLGI 3#及以下的常规工业油脂，包括锂基脂、钙基脂、锂钙基脂等主流工业润滑脂。如需使用特殊油脂，建议联系技术人员确认兼容性。</div>
       </div>
       <div class="faq-item">
         <div class="faq-q">
-          安装S500H需要专业技能吗？
+          <span data-i18n="contact.faq_q2">安装S500H需要专业技能吗？</span>
           <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
         </div>
-        <div class="faq-a">安装非常简单，只需四个步骤：固定安装→设定参数→自动运行→远程监控。通过标准G1/4螺纹接口连接设备润滑点，无需专业工具或特殊技能。我们也提供上门安装指导服务。</div>
+        <div class="faq-a" data-i18n="contact.faq_a2">安装非常简单，只需四个步骤：固定安装→设定参数→自动运行→远程监控。通过标准G1/4螺纹接口连接设备润滑点，无需专业工具或特殊技能。我们也提供上门安装指导服务。</div>
       </div>
       <div class="faq-item">
         <div class="faq-q">
-          S500H的4G远程监控功能如何使用？
+          <span data-i18n="contact.faq_q3">S500H的4G远程监控功能如何使用？</span>
           <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
         </div>
-        <div class="faq-a">设备内置4G通讯模块，开机后自动连接云平台。用户可通过手机APP或电脑浏览器登录云平台，实时查看油位状态、设备温度、运行时间等数据，并在线调整注油参数。异常情况会自动推送消息提醒。</div>
+        <div class="faq-a" data-i18n="contact.faq_a3">设备内置4G通讯模块，开机后自动连接云平台。用户可通过手机APP或电脑浏览器登录云平台，实时查看油位状态、设备温度、运行时间等数据，并在线调整注油参数。异常情况会自动推送消息提醒。</div>
       </div>
       <div class="faq-item">
         <div class="faq-q">
-          电池续航时间有多长？如何充电？
+          <span data-i18n="contact.faq_q4">电池续航时间有多长？如何充电？</span>
           <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
         </div>
-        <div class="faq-a">内置5V 2.6Ah锂电池，续航时间取决于注油频率。在正常工况（24小时周期）下续航可达数月。设备也支持外接5V电源持续供电，适合对供电稳定性要求高的场景。</div>
+        <div class="faq-a" data-i18n="contact.faq_a4">内置5V 2.6Ah锂电池，续航时间取决于注油频率。在正常工况（24小时周期）下续航可达数月。设备也支持外接5V电源持续供电，适合对供电稳定性要求高的场景。</div>
       </div>
       <div class="faq-item">
         <div class="faq-q">
-          S500H的防护等级和使用环境要求？
+          <span data-i18n="contact.faq_q5">S500H的防护等级和使用环境要求？</span>
           <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
         </div>
-        <div class="faq-a">S500H达到IP65工业级防护等级，防尘防水，可在灰尘、潮湿、水雾等恶劣环境中正常运行。工作温度范围为-30°C至65°C，能够适应大多数工业场景的温度要求。</div>
+        <div class="faq-a" data-i18n="contact.faq_a5">S500H达到IP65工业级防护等级，防尘防水，可在灰尘、潮湿、水雾等恶劣环境中正常运行。工作温度范围为-30°C至65°C，能够适应大多数工业场景的温度要求。</div>
       </div>
       <div class="faq-item">
         <div class="faq-q">
-          如何获取报价和定制解决方案？
+          <span data-i18n="contact.faq_q6">如何获取报价和定制解决方案？</span>
           <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
         </div>
-        <div class="faq-a">您可以通过本页面的在线留言表单、拨打400咨询电话或发送邮件与我们联系。提供您的行业类型、设备信息和润滑需求，专业工程师将在24小时内为您制定定制化解决方案和报价。</div>
+        <div class="faq-a" data-i18n="contact.faq_a6">您可以通过本页面的在线留言表单、拨打400咨询电话或发送邮件与我们联系。提供您的行业类型、设备信息和润滑需求，专业工程师将在24小时内为您制定定制化解决方案和报价。</div>
       </div>
     </div>
   </div>
@@ -1000,14 +1001,14 @@
 <section class="cta-banner">
   <div class="container">
     <div class="cta-banner-inner fade-up">
-      <h2>还有其他问题？立即联系我们</h2>
-      <p>专业工程师团队随时为您提供技术咨询和解决方案</p>
+      <h2 data-i18n="contact.cta_title">还有其他问题？立即联系我们</h2>
+      <p data-i18n="contact.cta_subtitle">专业工程师团队随时为您提供技术咨询和解决方案</p>
       <div class="cta-banner-btns">
         <a href="tel:02888417995" class="btn btn-white btn-lg">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
           028-88417995
         </a>
-        <a href="mailto:sales@shuliyuan.com.cn" class="btn btn-lg" style="background:rgba(255,255,255,0.15);color:#fff;border:2px solid rgba(255,255,255,0.4)">发送邮件</a>
+        <a href="mailto:sales@shuliyuan.com.cn" class="btn btn-lg" style="background:rgba(255,255,255,0.15);color:#fff;border:2px solid rgba(255,255,255,0.4)" data-i18n="contact.cta_btn">发送邮件</a>
       </div>
     </div>
   </div>
@@ -1021,22 +1022,23 @@
         <div class="footer-logo navbar-logo">
           <img src="assets/images/logo.png" alt="蜀利元智能润滑器" class="logo-img" height="40">
         </div>
-        <p class="footer-desc">工业智能润滑解决方案专家，帮助工业企业实现精准润滑管理。</p>
+        <p class="footer-desc" data-i18n="footer.desc_short">工业智能润滑解决方案专家，帮助工业企业实现精准润滑管理。</p>
       </div>
-      <div class="footer-col"><h5>快速导航</h5><div class="footer-links"><a href="index.html">首页</a><a href="products.html">产品中心</a><a href="knowledge.html">技术知识</a><a href="solutions.html">解决方案</a><a href="contact.html">联系我们</a></div></div>
-      <div class="footer-col"><h5>产品服务</h5><div class="footer-links"><a href="products.html">S500H智能润滑器</a><a href="solutions.html">行业解决方案</a><a href="contact.html">技术咨询</a></div></div>
-      <div class="footer-col"><h5>联系我们</h5><div class="footer-contact"><div class="contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>028-88417995</span></div><div class="contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>sales@shuliyuan.com.cn</span></div><div class="contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>四川省成都市高新区</span></div></div></div>
+      <div class="footer-col"><h5 data-i18n="footer.quick_nav">快速导航</h5><div class="footer-links"><a href="index.html" data-i18n="nav.home">首页</a><a href="products.html" data-i18n="nav.products">产品中心</a><a href="knowledge.html" data-i18n="nav.knowledge">技术知识</a><a href="solutions.html" data-i18n="nav.solutions">解决方案</a><a href="contact.html" data-i18n="nav.contact">联系我们</a></div></div>
+      <div class="footer-col"><h5 data-i18n="footer.products_services">产品服务</h5><div class="footer-links"><a href="products.html" data-i18n="footer.product_s500h">S500H智能润滑器</a><a href="solutions.html" data-i18n="footer.product_industry">行业解决方案</a><a href="contact.html" data-i18n="footer.product_tech">技术咨询</a></div></div>
+      <div class="footer-col"><h5 data-i18n="footer.contact_us">联系我们</h5><div class="footer-contact"><div class="contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>028-88417995</span></div><div class="contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>sales@shuliyuan.com.cn</span></div><div class="contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span data-i18n="contact.footer_address">成都市 龙泉驿区成龙大道中段1118号中物国际</span></div></div></div>
     </div>
-    <div class="footer-bottom"><span>© 2024 蜀利元智能润滑器. 保留所有权利.</span><span>精研流动，重塑润滑</span></div>
+    <div class="footer-bottom"><span data-i18n="footer.copyright">© 2024 蜀利元智能润滑器. 保留所有权利.</span><span data-i18n="footer.slogan">精研流动，重塑润滑</span></div>
   </div>
 </footer>
 
 <div class="float-consult">
-  <a href="http://shuliyuan.com.cn/" target="_blank" class="float-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg><span class="float-tooltip">控制中心</span></a>
-  <a href="tel:02888417995" class="float-btn blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span class="float-tooltip">电话咨询</span></a>
+  <a href="http://shuliyuan.com.cn/" target="_blank" class="float-btn" data-i18n-title="nav.control_center"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg><span class="float-tooltip" data-i18n="nav.control_center">控制中心</span></a>
+  <a href="tel:02888417995" class="float-btn blue" data-i18n-title="nav.phone_consult"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span class="float-tooltip" data-i18n="nav.phone_consult">电话咨询</span></a>
 </div>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/i18n.js"></script>
 <script>
 // 动态地图初始化
 (function() {
@@ -1076,12 +1078,13 @@
   var marker = L.marker([lat, lng], { icon: markerIcon }).addTo(map);
 
   // 点击标记弹出信息
+  var __t = window.__ || function(k) { return k; };
   marker.bindPopup(
     '<div style="text-align:center;min-width:180px">' +
-    '<strong style="font-size:15px;color:#C41230">蜀利元智能润滑器</strong><br>' +
-    '<span style="font-size:12px;color:#666">总部</span><br>' +
-    '<span style="font-size:12px;color:#333">四川省成都市龙泉驿区<br>成龙大道中段1118号中物国际</span><br>' +
-    '<a href="https://uri.amap.com/navigation?to=104.237,30.562,成都市龙泉驿区成龙大道中段1118号&mode=car&callnative=1" target="_blank" style="display:inline-block;margin-top:8px;padding:6px 16px;background:#C41230;color:white;border-radius:4px;text-decoration:none;font-size:12px;font-weight:600">导航到这里</a>' +
+    '<strong style="font-size:15px;color:#C41230">' + __t('contact.map_popup_title') + '</strong><br>' +
+    '<span style="font-size:12px;color:#666">' + __t('contact.map_popup_label') + '</span><br>' +
+    '<span style="font-size:12px;color:#333">' + __t('contact.map_address') + '</span><br>' +
+    '<a href="https://uri.amap.com/navigation?to=104.237,30.562,成都市龙泉驿区成龙大道中段1118号&mode=car&callnative=1" target="_blank" style="display:inline-block;margin-top:8px;padding:6px 16px;background:#C41230;color:white;border-radius:4px;text-decoration:none;font-size:12px;font-weight:600">' + __t('contact.map_nav') + '</a>' +
     '</div>'
   );
 
@@ -1134,13 +1137,19 @@ document.querySelectorAll('.faq-q').forEach(btn => {
       }
     });
 
-    if (countEl) countEl.innerHTML = '共 <strong>' + visible + '</strong> 家经销商';
+    if (countEl) {
+      var __t = window.__ || function(k) { return k; };
+      var cntText = __t('dealer.count_text');
+      countEl.innerHTML = cntText.replace('{count}', '<strong>' + visible + '</strong>');
+    }
     if (empty) empty.style.display = visible === 0 ? '' : 'none';
   }
 
   if (searchInput) searchInput.addEventListener('input', filterDealers);
   if (regionSelect) regionSelect.addEventListener('change', filterDealers);
   if (typeSelect) typeSelect.addEventListener('change', filterDealers);
+  // initialize i18n count
+  filterDealers();
 })();
 
 // 表单成功处理

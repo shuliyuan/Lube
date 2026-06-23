@@ -127,15 +127,15 @@ function animateNumber(el, target, duration = 1800, suffix = '') {
 
     if (input.required && !val) {
       input.classList.add('error');
-      if (errorEl) errorEl.textContent = '此项为必填';
+      if (errorEl) errorEl.textContent = (window.__ && window.__('form.error_required')) || '此项为必填';
       valid = false;
     } else if (input.type === 'tel' && val && !/^1[3-9]\d{9}$/.test(val)) {
       input.classList.add('error');
-      if (errorEl) errorEl.textContent = '请输入有效的手机号码';
+      if (errorEl) errorEl.textContent = (window.__ && window.__('form.error_phone')) || '请输入有效的手机号码';
       valid = false;
     } else if (input.type === 'email' && val && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val)) {
       input.classList.add('error');
-      if (errorEl) errorEl.textContent = '请输入有效的邮箱地址';
+      if (errorEl) errorEl.textContent = (window.__ && window.__('form.error_email')) || '请输入有效的邮箱地址';
       valid = false;
     } else {
       input.classList.remove('error');
@@ -165,7 +165,7 @@ function animateNumber(el, target, duration = 1800, suffix = '') {
 
     const submitBtn = form.querySelector('.form-submit');
     submitBtn.disabled = true;
-    submitBtn.textContent = '提交中...';
+    submitBtn.textContent = (window.__ && window.__('form.submitting')) || '提交中...';
 
     try {
       // 模拟API调用（后续接数据库时替换）
@@ -175,8 +175,8 @@ function animateNumber(el, target, duration = 1800, suffix = '') {
       if (successEl) successEl.classList.add('show');
     } catch (err) {
       submitBtn.disabled = false;
-      submitBtn.textContent = '提交咨询';
-      alert('系统繁忙，请稍后重试或拨打电话联系我们');
+      submitBtn.textContent = (window.__ && window.__('form.submit_text')) || '提交咨询';
+      alert((window.__ && window.__('form.system_error')) || '系统繁忙，请稍后重试或拨打电话联系我们');
     }
   });
 })();

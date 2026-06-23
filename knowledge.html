@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="蜀利元技术知识 - 工业润滑技术参数解读、选型指南、维护要点，助您深入了解智能润滑">
-  <title>技术知识 - 润滑技术解读 | 蜀利元</title>
+  <title data-i18n="page.title_knowledge">技术知识 - 润滑技术解读 | 蜀利元</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/i18n.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23C41230'/><text y='22' x='5' font-size='18' fill='white' font-weight='bold'>蜀</text></svg>">
   <style>
     .knowledge-hero {
@@ -337,39 +338,39 @@
       <img src="assets/images/logo.png" alt="蜀利元智能润滑器" class="logo-img" height="40">
     </a>
     <nav class="navbar-nav">
-      <a href="index.html" class="nav-link">首页</a>
-      <a href="products.html" class="nav-link">产品中心</a>
-      <a href="knowledge.html" class="nav-link" style="color:var(--brand-red)">技术知识</a>
-      <a href="solutions.html" class="nav-link">解决方案</a>
-      <a href="contact.html" class="nav-link">联系我们</a>
+      <a href="index.html" class="nav-link" data-i18n="nav.home">首页</a>
+      <a href="products.html" class="nav-link" data-i18n="nav.products">产品中心</a>
+      <a href="knowledge.html" class="nav-link" style="color:var(--brand-red)" data-i18n="nav.knowledge">技术知识</a>
+      <a href="solutions.html" class="nav-link" data-i18n="nav.solutions">解决方案</a>
+      <a href="contact.html" class="nav-link" data-i18n="nav.contact">联系我们</a>
     </nav>
     <div class="navbar-cta">
       <a href="http://shuliyuan.com.cn/" target="_blank" class="btn btn-primary">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-        控制中心
+        <span data-i18n="nav.control_center">控制中心</span>
       </a>
     </div>
-    <button class="hamburger" id="hamburger" aria-label="菜单">
+    <button class="hamburger" id="hamburger" aria-label="菜单" data-i18n-title="nav.menu">
       <span></span><span></span><span></span>
     </button>
   </div>
 </nav>
 
 <div class="mobile-menu" id="mobileMenu">
-  <a href="index.html" class="nav-link">首页</a>
-  <a href="products.html" class="nav-link">产品中心</a>
-  <a href="knowledge.html" class="nav-link">技术知识</a>
-  <a href="solutions.html" class="nav-link">解决方案</a>
-  <a href="contact.html" class="nav-link">联系我们</a>
-  <a href="http://shuliyuan.com.cn/" target="_blank" class="btn btn-primary">控制中心</a>
+  <a href="index.html" class="nav-link" data-i18n="nav.home">首页</a>
+  <a href="products.html" class="nav-link" data-i18n="nav.products">产品中心</a>
+  <a href="knowledge.html" class="nav-link" data-i18n="nav.knowledge">技术知识</a>
+  <a href="solutions.html" class="nav-link" data-i18n="nav.solutions">解决方案</a>
+  <a href="contact.html" class="nav-link" data-i18n="nav.contact">联系我们</a>
+  <a href="http://shuliyuan.com.cn/" target="_blank" class="btn btn-primary"><span data-i18n="nav.control_center">控制中心</span></a>
 </div>
 
 <!-- ===== Hero ===== -->
 <section class="knowledge-hero">
   <div class="container">
-    <span class="section-label" style="color:var(--brand-red)">技术知识</span>
-    <h1>润滑技术<span>知识库</span></h1>
-    <p>从基础概念到实践应用，助您掌握智能润滑核心技术要点</p>
+    <span class="section-label" style="color:var(--brand-red)" data-i18n="knowledge.title">技术知识</span>
+    <h1 data-i18n-html="knowledge.hero_title_html">润滑技术<span>知识库</span></h1>
+    <p data-i18n="knowledge.hero_desc">从基础概念到实践应用，助您掌握智能润滑核心技术要点</p>
   </div>
 </section>
 
@@ -377,53 +378,53 @@
 <section class="precision-section">
   <div class="container">
     <div class="section-header fade-up">
-      <span class="section-label">精确润滑</span>
-      <h2 class="section-title">注油量<span>计算</span></h2>
+      <span class="section-label" data-i18n="knowledge.precision_title">精确润滑</span>
+      <h2 class="section-title" data-i18n-html="knowledge.h2_precision_html">注油量<span>计算</span></h2>
       <div class="section-divider" style="margin:20px auto 20px"></div>
-      <p class="section-subtitle" style="margin:0 auto">润滑是一门精确的科学，每一滴油脂都有数学逻辑</p>
+      <p class="section-subtitle" style="margin:0 auto" data-i18n="knowledge.precision_subtitle">润滑是一门精确的科学，每一滴油脂都有数学逻辑</p>
     </div>
     <!-- 主卡片：理论（左）+ 计算器（右） -->
     <div class="precision-master fade-up">
       <!-- 左栏：理论区 -->
       <div class="pm-theory">
         <div class="pm-theory-block">
-          <span class="pm-badge blue">初次润滑</span>
-          <h4>轴承初次润滑</h4>
+          <span class="pm-badge blue" data-i18n="knowledge.initial_lube">初次润滑</span>
+          <h4 data-i18n="knowledge.initial_lube_title">轴承初次润滑</h4>
           <div class="pm-item">
             <span class="pm-dot blue"></span>
             <div class="pm-item-content">
-              <strong>开式轴承</strong><br>
-              润滑脂填充量 <span class="pm-percent blue">100%</span>，完全填充
+              <strong data-i18n="knowledge.open_bearing">开式轴承</strong><br>
+              <span data-i18n-html="knowledge.open_bearing_desc">润滑脂填充量 <span class="pm-percent blue">100%</span>，完全填充</span>
             </div>
           </div>
           <div class="pm-item">
             <span class="pm-dot blue"></span>
             <div class="pm-item-content">
-              <strong>轴承座</strong><br>
-              两侧填充 <span class="pm-percent blue">40%</span>，外圈填充 <span class="pm-percent blue">20%</span>
+              <strong data-i18n="knowledge.housing">轴承座</strong><br>
+              <span data-i18n-html="knowledge.housing_desc">两侧填充 <span class="pm-percent blue">40%</span>，外圈填充 <span class="pm-percent blue">20%</span></span>
             </div>
           </div>
         </div>
         <div class="pm-sep"></div>
         <div class="pm-theory-block">
-          <span class="pm-badge red">二次润滑（补充加脂）</span>
+          <span class="pm-badge red" data-i18n="knowledge.relube">二次润滑（补充加脂）</span>
           <div class="pm-item">
             <span class="pm-dot red"></span>
             <div class="pm-item-content">
-              <strong>两侧填充</strong>
+              <strong data-i18n="knowledge.relube_both">两侧填充</strong>
               <div class="pm-formula-mini">
                 <div class="m-eq">Gp = <span class="mc">0.005</span> &times; D &times; B</div>
-                <div class="m-note">D=外径(mm) ｜ B=宽度(mm)</div>
+                <div class="m-note" data-i18n="knowledge.formula_label">D=外径(mm) ｜ B=宽度(mm)</div>
               </div>
             </div>
           </div>
           <div class="pm-item">
             <span class="pm-dot red"></span>
             <div class="pm-item-content">
-              <strong>单侧填充</strong>
+              <strong data-i18n="knowledge.relube_single">单侧填充</strong>
               <div class="pm-formula-mini">
                 <div class="m-eq">Gp = <span class="mc">0.002</span> &times; D &times; B</div>
-                <div class="m-note">单侧系数为两侧的一半</div>
+                <div class="m-note" data-i18n="knowledge.relube_single_note">单侧系数为两侧的一半</div>
               </div>
             </div>
           </div>
@@ -431,7 +432,7 @@
       </div>
       <!-- 右栏：计算器 -->
       <div class="pm-calc">
-        <div class="pm-ctitle">补充润滑量<span>快速计算</span></div>
+        <div class="pm-ctitle"><span data-i18n="knowledge.formula_title">补充润滑量</span><span data-i18n="knowledge.formula_subtitle">快速计算</span></div>
         <div class="pm-formula">
           <span class="fv">Gp</span>
           <span class="feq">=</span>
@@ -441,91 +442,91 @@
           <span class="fmu">&times;</span>
           <span class="fv" style="color:var(--brand-blue)">B</span>
         </div>
-        <p class="pm-flabel"><i class="i-d">D</i>=外径(mm) &nbsp;｜&nbsp; <i class="i-b">B</i>=宽度(mm)</p>
+        <p class="pm-flabel" data-i18n-html="knowledge.formula_param_label_html"><i class="i-d">D</i>=外径(mm) &nbsp;｜&nbsp; <i class="i-b">B</i>=宽度(mm)</p>
         <div class="calc-row">
           <div class="calc-field wide">
-            <label>轴承型号</label>
+            <label data-i18n="knowledge.bearing_model">轴承型号</label>
             <select class="calc-select" id="calcModel" onchange="onModelChange()">
-              <option value="">-- 选择或手动输入 --</option>
+              <option value="" data-i18n="knowledge.bearing_model_placeholder">-- 选择或手动输入 --</option>
             </select>
           </div>
         </div>
         <div class="calc-row">
           <div class="calc-field">
-            <label><span class="calc-var calc-var-d">D</span> <span class="calc-unit">外径 mm</span></label>
-            <input type="number" class="calc-input input-d" id="calcD" placeholder="外径" min="1" step="0.1" oninput="calcGrease()">
+            <label><span class="calc-var calc-var-d">D</span> <span class="calc-unit" data-i18n="knowledge.calc_d_unit">外径 mm</span></label>
+            <input type="number" class="calc-input input-d" id="calcD" placeholder="外径" min="1" step="0.1" oninput="calcGrease()" data-i18n-placeholder="knowledge.calc_placeholder_d">
           </div>
           <div class="calc-field">
-            <label><span class="calc-var calc-var-b">B</span> <span class="calc-unit">宽度 mm</span></label>
-            <input type="number" class="calc-input input-b" id="calcB" placeholder="宽度" min="1" step="0.1" oninput="calcGrease()">
+            <label><span class="calc-var calc-var-b">B</span> <span class="calc-unit" data-i18n="knowledge.calc_b_unit">宽度 mm</span></label>
+            <input type="number" class="calc-input input-b" id="calcB" placeholder="宽度" min="1" step="0.1" oninput="calcGrease()" data-i18n-placeholder="knowledge.calc_placeholder_b">
           </div>
           <div class="calc-field">
-            <label>润滑方式</label>
-            <select class="calc-select" id="calcMethod" onchange="calcGrease()">
-              <option value="both">两侧</option>
-              <option value="one">单侧</option>
+            <label data-i18n="knowledge.calc_method_label">润滑方式</label>
+            <select class="calc-select" id="calcMethod" onchange="calcGrease()" data-i18n-options="true">
+              <option value="both" data-i18n-key="knowledge.calc_method_both">两侧</option>
+              <option value="one" data-i18n-key="knowledge.calc_method_single">单侧</option>
             </select>
           </div>
           <div class="calc-field">
-            <label><span class="calc-unit">间隔 N(天)</span></label>
+            <label><span class="calc-unit" data-i18n="knowledge.calc_interval_label">间隔 N(天)</span></label>
             <input type="number" class="calc-input" id="calcN" value="30" min="1" step="1" oninput="calcGrease()">
           </div>
         </div>
         <div class="calc-row">
           <div class="calc-field">
-            <label>转速</label>
-            <select class="calc-select" id="calcRPM" onchange="calcGrease()">
-              <option value="低">低(&lt;900)</option>
-              <option value="中" selected>中(900-1500)</option>
-              <option value="高">高(1500-2000)</option>
-              <option value="很高">很高(&gt;2000)</option>
+            <label data-i18n="knowledge.calc_rpm_label">转速</label>
+            <select class="calc-select" id="calcRPM" onchange="calcGrease()" data-i18n-options="true">
+              <option value="低" data-i18n-key="knowledge.calc_rpm_low">低(&lt;900)</option>
+              <option value="中" selected data-i18n-key="knowledge.calc_rpm_mid">中(900-1500)</option>
+              <option value="高" data-i18n-key="knowledge.calc_rpm_high">高(1500-2000)</option>
+              <option value="很高" data-i18n-key="knowledge.calc_rpm_vhigh">很高(&gt;2000)</option>
             </select>
           </div>
           <div class="calc-field">
-            <label>运行温度</label>
-            <select class="calc-select" id="calcTemp" onchange="calcGrease()">
-              <option value="低">低(47-63℃)</option>
-              <option value="中" selected>中(63-78℃)</option>
-              <option value="高">高(78-93℃)</option>
-              <option value="超高">超高(93-107℃)</option>
+            <label data-i18n="knowledge.calc_temp_label">运行温度</label>
+            <select class="calc-select" id="calcTemp" onchange="calcGrease()" data-i18n-options="true">
+              <option value="低" data-i18n-key="knowledge.calc_temp_low">低(47-63℃)</option>
+              <option value="中" selected data-i18n-key="knowledge.calc_temp_mid">中(63-78℃)</option>
+              <option value="高" data-i18n-key="knowledge.calc_temp_high">高(78-93℃)</option>
+              <option value="超高" data-i18n-key="knowledge.calc_temp_vhigh">超高(93-107℃)</option>
             </select>
           </div>
           <div class="calc-field">
-            <label>载荷</label>
-            <select class="calc-select" id="calcLoad" onchange="calcGrease()">
-              <option value="低" selected>低(C/P&gt;15)</option>
-              <option value="中">中(C/P=8-15)</option>
-              <option value="高">高(C/P=4-8)</option>
-              <option value="很高">很高(C/P&lt;4)</option>
+            <label data-i18n="knowledge.calc_load_label">载荷</label>
+            <select class="calc-select" id="calcLoad" onchange="calcGrease()" data-i18n-options="true">
+              <option value="低" selected data-i18n-key="knowledge.calc_load_low">低(C/P&gt;15)</option>
+              <option value="中" data-i18n-key="knowledge.calc_load_mid">中(C/P=8-15)</option>
+              <option value="高" data-i18n-key="knowledge.calc_load_high">高(C/P=4-8)</option>
+              <option value="很高" data-i18n-key="knowledge.calc_load_vhigh">很高(C/P&lt;4)</option>
             </select>
           </div>
           <div class="calc-field">
-            <label>污染</label>
-            <select class="calc-select" id="calcContam" onchange="calcGrease()">
-              <option value="低" selected>低</option>
-              <option value="中">中</option>
-              <option value="高">高</option>
+            <label data-i18n="knowledge.calc_contam_label">污染</label>
+            <select class="calc-select" id="calcContam" onchange="calcGrease()" data-i18n-options="true">
+              <option value="低" selected data-i18n-key="knowledge.calc_contam_low">低</option>
+              <option value="中" data-i18n-key="knowledge.calc_contam_mid">中</option>
+              <option value="高" data-i18n-key="knowledge.calc_contam_high">高</option>
             </select>
           </div>
-          <button class="calc-btn" onclick="calcGrease()">计算</button>
+          <button class="calc-btn" onclick="calcGrease()" data-i18n="knowledge.calc_btn">计算</button>
         </div>
         <div class="calc-result-grid" id="calcResultGrid">
           <div class="calc-res-card highlight">
             <div class="calc-res-val" id="calcGpVal">—</div>
-            <div class="calc-res-label">每次加脂 Gp (g)</div>
+            <div class="calc-res-label" data-i18n="knowledge.calc_result_gp">每次加脂 Gp (g)</div>
           </div>
           <div class="calc-res-card">
             <div class="calc-res-val" id="calcCoefVal">—</div>
-            <div class="calc-res-label">总修正系数</div>
+            <div class="calc-res-label" data-i18n="knowledge.calc_result_coef">总修正系数</div>
           </div>
           <div class="calc-res-card">
             <div class="calc-res-val" id="calcDailyVal">—</div>
-            <div class="calc-res-label">日用量 (g/天)</div>
+            <div class="calc-res-label" data-i18n="knowledge.calc_result_daily">日用量 (g/天)</div>
           </div>
         </div>
         <div class="calc-res-full" id="calcMonthlyRow" style="display:none">
-          <span style="font-size:11px;color:var(--text-muted)">建议间隔 <strong id="calcSuggestN" style="color:#C2410C">—</strong>天 ｜ 月用量</span>
-          <span class="calc-res-val" id="calcMonthlyVal">—</span> <span style="font-size:11px;color:var(--text-muted)">g/月 (按 <strong id="calcDaysVal">30</strong> 天)</span>
+          <span style="font-size:11px;color:var(--text-muted)"><span data-i18n="knowledge.calc_result_interval_prefix">建议间隔 </span><strong id="calcSuggestN" style="color:#C2410C">—</strong><span data-i18n="knowledge.calc_result_interval_suffix">天 ｜ 月用量</span></span>
+          <span class="calc-res-val" id="calcMonthlyVal">—</span> <span style="font-size:11px;color:var(--text-muted)"><span data-i18n="knowledge.calc_result_monthly_prefix">g/月 (按 </span><strong id="calcDaysVal">30</strong><span data-i18n="knowledge.calc_result_monthly_suffix"> 天)</span></span>
         </div>
       </div>
     </div>
@@ -534,15 +535,15 @@
       <img src="assets/images/bearing-cross-section.png" alt="轴承剖面图" class="bearing-img">
       <div class="preview-info">
         <div class="example-detail">
-          <div class="ed-title">计算示例 · 6330 C3</div>
+          <div class="ed-title" data-i18n="knowledge.example_title">计算示例 · 6330 C3</div>
           <div class="ed-step">D = 225mm ｜ B = 35mm</div>
           <div class="ed-step">Gp = 225 &times; 35 &times; 0.005 = <span class="ed-val">39g</span></div>
           <div class="ed-result">
-            <div class="ed-main">日均加脂量 <strong>0.65g</strong></div>
-            <div class="ed-sub">39g &divide; 60 天（2个月间隔）</div>
+            <div class="ed-main"><span data-i18n="knowledge.example_daily_label">日均加脂量</span> <strong>0.65g</strong></div>
+            <div class="ed-sub" data-i18n="knowledge.example_label">39g &divide; 60 天（2个月间隔）</div>
           </div>
         </div>
-        <p class="precision-conclusion">人力无法实现每天精确到小数点的注油，<span>必须依靠智能硬件</span></p>
+        <p class="precision-conclusion" data-i18n-html="knowledge.precision_conclusion_html">人力无法实现每天精确到小数点的注油，<span>必须依靠智能硬件</span></p>
       </div>
     </div>
   </div>
@@ -552,46 +553,46 @@
 <section class="grease-knowledge-section" style="background:var(--bg-gray)">
   <div class="container">
     <div class="section-header fade-up">
-      <span class="section-label">技术参数</span>
-      <h2 class="section-title">润滑脂<span>技术参数解读</span></h2>
+      <span class="section-label" data-i18n="knowledge.grease_section_label">技术参数</span>
+      <h2 class="section-title" data-i18n-html="knowledge.h2_grease_html">润滑脂<span>技术参数解读</span></h2>
       <div class="section-divider" style="margin:20px auto 20px"></div>
-      <p class="section-subtitle" style="margin:0 auto">了解润滑脂核心指标，科学选择适合设备的润滑方案</p>
+      <p class="section-subtitle" style="margin:0 auto" data-i18n="knowledge.grease_section_subtitle">了解润滑脂核心指标，科学选择适合设备的润滑方案</p>
     </div>
 
     <!-- 引言 + NLGI稠度表 -->
     <div class="grease-intro-wrap fade-up">
       <div class="grease-intro-text">
-        <p>要选择合适的润滑脂，需要具备一些基础知识以懂得技术数据。S500H智能润滑器兼容NLGI 3#及以下各类常规工业油脂，以下是对关键润滑脂技术参数的专业解读。</p>
-        <p>正确理解这些参数，有助于根据设备工况、环境条件和润滑要求，选择最优润滑脂配方，配合S500H的精准注油系统，实现设备润滑效果最大化。</p>
+        <p data-i18n="knowledge.grease_intro_p1">要选择合适的润滑脂，需要具备一些基础知识以懂得技术数据。S500H智能润滑器兼容NLGI 3#及以下各类常规工业油脂，以下是对关键润滑脂技术参数的专业解读。</p>
+        <p data-i18n="knowledge.grease_intro_p2">正确理解这些参数，有助于根据设备工况、环境条件和润滑要求，选择最优润滑脂配方，配合S500H的精准注油系统，实现设备润滑效果最大化。</p>
       </div>
       <div class="grease-tags-row">
-        <span class="grease-tag red">NLGI 000~3# 适用</span>
-        <span class="grease-tag blue">锂基脂/钙基脂兼容</span>
+        <span class="grease-tag red" data-i18n="knowledge.grease_tag_nlgi">NLGI 000~3# 适用</span>
+        <span class="grease-tag blue" data-i18n="knowledge.grease_tag_types">锂基脂/钙基脂兼容</span>
       </div>
     </div>
     <div class="nlgi-table-wrap fade-up">
-      <h4>NLGI 稠度等级表</h4>
+      <h4 data-i18n="knowledge.consistency_title">NLGI 稠度等级表</h4>
       <table class="nlgi-table">
         <thead>
           <tr>
-            <th>NLGI 编号</th>
-            <th>针入度 (10⁻¹mm)</th>
-            <th>外观状态</th>
+            <th data-i18n="knowledge.consistency_grade">NLGI 编号</th>
+            <th data-i18n="knowledge.consistency_range">针入度 (10⁻¹mm)</th>
+            <th data-i18n="knowledge.consistency_desc">外观状态</th>
           </tr>
         </thead>
         <tbody>
-          <tr><td>000</td><td>445-475</td><td class="nlgi-appearance">极强流动性</td></tr>
-          <tr><td>00</td><td>400-430</td><td class="nlgi-appearance">流体</td></tr>
-          <tr><td>0</td><td>355-385</td><td class="nlgi-appearance">半流体</td></tr>
-          <tr><td>1</td><td>310-340</td><td class="nlgi-appearance">非常软</td></tr>
-          <tr class="nlgi-highlight"><td>2</td><td>265-295</td><td class="nlgi-appearance">软（最常用）</td></tr>
-          <tr class="nlgi-highlight"><td>3</td><td>220-250</td><td class="nlgi-appearance">中等硬度</td></tr>
-          <tr><td>4</td><td>175-205</td><td class="nlgi-appearance">硬</td></tr>
-          <tr><td>5</td><td>130-160</td><td class="nlgi-appearance">非常硬</td></tr>
-          <tr><td>6</td><td>85-115</td><td class="nlgi-appearance">极硬</td></tr>
+          <tr><td data-i18n="knowledge.consistency_000">000</td><td data-i18n="knowledge.consistency_000_range">445-475</td><td class="nlgi-appearance" data-i18n="knowledge.consistency_000_desc">极强流动性</td></tr>
+          <tr><td data-i18n="knowledge.consistency_00">00</td><td data-i18n="knowledge.consistency_00_range">400-430</td><td class="nlgi-appearance" data-i18n="knowledge.consistency_00_desc">流体</td></tr>
+          <tr><td data-i18n="knowledge.consistency_0">0</td><td data-i18n="knowledge.consistency_0_range">355-385</td><td class="nlgi-appearance" data-i18n="knowledge.consistency_0_desc">半流体</td></tr>
+          <tr><td data-i18n="knowledge.consistency_1">1</td><td data-i18n="knowledge.consistency_1_range">310-340</td><td class="nlgi-appearance" data-i18n="knowledge.consistency_1_desc">非常软</td></tr>
+          <tr class="nlgi-highlight"><td data-i18n="knowledge.consistency_2">2</td><td data-i18n="knowledge.consistency_2_range">265-295</td><td class="nlgi-appearance" data-i18n="knowledge.consistency_2_desc">软（最常用）</td></tr>
+          <tr class="nlgi-highlight"><td data-i18n="knowledge.consistency_3">3</td><td data-i18n="knowledge.consistency_3_range">220-250</td><td class="nlgi-appearance" data-i18n="knowledge.consistency_3_desc">中等硬度</td></tr>
+          <tr><td data-i18n="knowledge.consistency_4">4</td><td data-i18n="knowledge.consistency_4_range">175-205</td><td class="nlgi-appearance" data-i18n="knowledge.consistency_4_desc">硬</td></tr>
+          <tr><td data-i18n="knowledge.consistency_5">5</td><td data-i18n="knowledge.consistency_5_range">130-160</td><td class="nlgi-appearance" data-i18n="knowledge.consistency_5_desc">非常硬</td></tr>
+          <tr><td data-i18n="knowledge.consistency_6">6</td><td data-i18n="knowledge.consistency_6_range">85-115</td><td class="nlgi-appearance" data-i18n="knowledge.consistency_6_desc">极硬</td></tr>
         </tbody>
       </table>
-      <p style="font-size:11px;color:var(--text-muted);text-align:center;margin-top:12px">高亮行为轴承常用润滑脂稠度等级</p>
+      <p style="font-size:11px;color:var(--text-muted);text-align:center;margin-top:12px" data-i18n="knowledge.nlgi_note">高亮行为轴承常用润滑脂稠度等级</p>
     </div>
 
   </div>
@@ -601,10 +602,10 @@
 <section class="section-pad" style="background:var(--bg-gray)">
   <div class="container">
     <div class="section-header fade-up">
-      <span class="section-label">知识主题</span>
-      <h2 class="section-title">润滑技术<span>核心概念</span></h2>
+      <span class="section-label" data-i18n="knowledge.knowledge_section_label">知识主题</span>
+      <h2 class="section-title" data-i18n-html="knowledge.h2_core_html">润滑技术<span>核心概念</span></h2>
       <div class="section-divider" style="margin:20px auto 20px"></div>
-      <p class="section-subtitle" style="margin:0 auto">理解这些关键参数，让选型与维护更科学</p>
+      <p class="section-subtitle" style="margin:0 auto" data-i18n="knowledge.knowledge_section_subtitle">理解这些关键参数，让选型与维护更科学</p>
     </div>
 
     <div class="knowledge-grid fade-up">
@@ -612,48 +613,48 @@
         <div class="kc-icon red">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
         </div>
-        <h4>NLGI稠度等级</h4>
-        <p>稠度衡量润滑脂的硬度，从000级（液态）到6级（极硬）。工业轴承常用NLGI 1、2、3级——太软易泄漏，太硬阻力大。选择合适的稠度是选型第一步。</p>
+        <h4 data-i18n="knowledge.card1_title">NLGI稠度等级</h4>
+        <p data-i18n="knowledge.card1_desc">稠度衡量润滑脂的硬度，从000级（液态）到6级（极硬）。工业轴承常用NLGI 1、2、3级——太软易泄漏，太硬阻力大。选择合适的稠度是选型第一步。</p>
       </div>
 
       <div class="knowledge-card">
         <div class="kc-icon blue">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/></svg>
         </div>
-        <h4>温度与粘度</h4>
-        <p>润滑脂性能高度依赖温度：低温下油脂变硬可能导致贫油，高温下加速氧化降解。基础油粘度决定了油膜承载能力——原则是"轻载低粘、重载高粘"。</p>
+        <h4 data-i18n="knowledge.card2_title">温度与粘度</h4>
+        <p data-i18n="knowledge.card2_desc">润滑脂性能高度依赖温度：低温下油脂变硬可能导致贫油，高温下加速氧化降解。基础油粘度决定了油膜承载能力——原则是"轻载低粘、重载高粘"。</p>
       </div>
 
       <div class="knowledge-card">
         <div class="kc-icon red">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
         </div>
-        <h4>补充润滑周期</h4>
-        <p>正确的注油周期和注油量是延长轴承寿命的关键。周期太短浪费润滑脂，太长导致贫油磨损。需综合轴承转速、负载、温度、环境等因素计算。</p>
+        <h4 data-i18n="knowledge.card3_title">补充润滑周期</h4>
+        <p data-i18n="knowledge.card3_desc">正确的注油周期和注油量是延长轴承寿命的关键。周期太短浪费润滑脂，太长导致贫油磨损。需综合轴承转速、负载、温度、环境等因素计算。</p>
       </div>
 
       <div class="knowledge-card">
         <div class="kc-icon blue">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
         </div>
-        <h4>抗腐蚀与抗水性</h4>
-        <p>潮湿、水淋、腐蚀性环境中，润滑脂必须具备良好的抗水冲刷能力和防腐蚀保护。Emcor测试（0~5级）是衡量防腐蚀性能的标准方法。</p>
+        <h4 data-i18n="knowledge.card4_title">抗腐蚀与抗水性</h4>
+        <p data-i18n="knowledge.card4_desc">潮湿、水淋、腐蚀性环境中，润滑脂必须具备良好的抗水冲刷能力和防腐蚀保护。Emcor测试（0~5级）是衡量防腐蚀性能的标准方法。</p>
       </div>
 
       <div class="knowledge-card">
         <div class="kc-icon red">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
         </div>
-        <h4>极压（EP）性能</h4>
-        <p>重载设备（如矿山、钢铁行业）需要极压润滑脂。4球焊接荷载测试是衡量EP性能的核心方法——极压润滑脂典型值超过2600N。</p>
+        <h4 data-i18n="knowledge.card5_title">极压（EP）性能</h4>
+        <p data-i18n="knowledge.card5_desc">重载设备（如矿山、钢铁行业）需要极压润滑脂。4球焊接荷载测试是衡量EP性能的核心方法——极压润滑脂典型值超过2600N。</p>
       </div>
 
       <div class="knowledge-card">
         <div class="kc-icon blue">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
         </div>
-        <h4>智能润滑 vs 传统润滑</h4>
-        <p>传统人工注油难以精确控制周期和剂量，容易过量或不足。智能润滑器按预设参数自动注油，搭配远程监控平台实时掌握设备状态，提升管理效率。</p>
+        <h4 data-i18n="knowledge.card6_title">智能润滑 vs 传统润滑</h4>
+        <p data-i18n="knowledge.card6_desc">传统人工注油难以精确控制周期和剂量，容易过量或不足。智能润滑器按预设参数自动注油，搭配远程监控平台实时掌握设备状态，提升管理效率。</p>
       </div>
     </div>
   </div>
@@ -664,38 +665,38 @@
   <div class="container">
     <div class="section-header fade-up">
       <span class="section-label">FAQ</span>
-      <h2 class="section-title">常见<span>技术问题</span></h2>
+      <h2 class="section-title" data-i18n-html="knowledge.faq_section_title_html">常见<span>技术问题</span></h2>
       <div class="section-divider" style="margin:20px auto 20px"></div>
     </div>
 
     <div class="faq-list fade-up">
       <div class="faq-item">
-        <div class="faq-q">S500H智能润滑器适用于哪些类型的润滑脂？</div>
-        <div class="faq-a"><p>S500H兼容NLGI 000#~3#的各类常规工业润滑脂，包括锂基脂、钙基脂、复合锂基脂、聚脲脂等。最大输出压力达10Bar，能够轻松应对中高稠度润滑脂的输送。建议使用前进行润滑脂兼容性测试。</p></div>
+        <div class="faq-q" data-i18n="knowledge.faq_q1">S500H智能润滑器适用于哪些类型的润滑脂？</div>
+        <div class="faq-a"><p data-i18n="knowledge.faq_a1">S500H兼容NLGI 000#~3#的各类常规工业润滑脂，包括锂基脂、钙基脂、复合锂基脂、聚脲脂等。最大输出压力达10Bar，能够轻松应对中高稠度润滑脂的输送。建议使用前进行润滑脂兼容性测试。</p></div>
       </div>
       <div class="faq-item">
-        <div class="faq-q">如何确定设备的注油周期和每次注油量？</div>
-        <div class="faq-a"><p>注油周期和注油量需根据轴承类型、转速、负载、工作温度等因素综合计算。通常原则是：高温高负载工况缩短注油周期，低速重载适当增加单次注油量。可联系我们的技术团队获取针对您设备的精确润滑方案。</p></div>
+        <div class="faq-q" data-i18n="knowledge.faq_q2">如何确定设备的注油周期和每次注油量？</div>
+        <div class="faq-a"><p data-i18n="knowledge.faq_a2">注油周期和注油量需根据轴承类型、转速、负载、工作温度等因素综合计算。通常原则是：高温高负载工况缩短注油周期，低速重载适当增加单次注油量。可联系我们的技术团队获取针对您设备的精确润滑方案。</p></div>
       </div>
       <div class="faq-item">
-        <div class="faq-q">S500H能否在粉尘、高温或潮湿等恶劣工况下使用？</div>
-        <div class="faq-a"><p>可以。S500H采用IP65防护等级设计，具备优良的防尘防水能力。工作温度范围-20°C至+60°C（配合合适润滑脂可扩展）。对于极端工况（如钢厂高温区），建议联系我们获取针对性的安装和保护方案。</p></div>
+        <div class="faq-q" data-i18n="knowledge.faq_q3">S500H能否在粉尘、高温或潮湿等恶劣工况下使用？</div>
+        <div class="faq-a"><p data-i18n="knowledge.faq_a3">可以。S500H采用IP65防护等级设计，具备优良的防尘防水能力。工作温度范围-20°C至+60°C（配合合适润滑脂可扩展）。对于极端工况（如钢厂高温区），建议联系我们获取针对性的安装和保护方案。</p></div>
       </div>
       <div class="faq-item">
-        <div class="faq-q">一个S500H可以同时给多个润滑点供油吗？</div>
-        <div class="faq-a"><p>S500H设计为单点润滑器。如需同时润滑多个点位，可通过配置分配器（递进式或容积式）实现多点供油。具体方案需评估各润滑点的阻力差异、距离等因素，建议联系我们进行系统设计。</p></div>
+        <div class="faq-q" data-i18n="knowledge.faq_q4">一个S500H可以同时给多个润滑点供油吗？</div>
+        <div class="faq-a"><p data-i18n="knowledge.faq_a4">S500H设计为单点润滑器。如需同时润滑多个点位，可通过配置分配器（递进式或容积式）实现多点供油。具体方案需评估各润滑点的阻力差异、距离等因素，建议联系我们进行系统设计。</p></div>
       </div>
       <div class="faq-item">
-        <div class="faq-q">远程监控平台如何接入？是否需要额外费用？</div>
-        <div class="faq-a"><p>S500H内置4G通信模组，设备通电后自动连接云平台。您通过Web端或手机APP即可查看设备运行状态、历史数据、告警信息等。平台基础功能免费使用，高级分析功能可根据需求开通。</p></div>
+        <div class="faq-q" data-i18n="knowledge.faq_q5">远程监控平台如何接入？是否需要额外费用？</div>
+        <div class="faq-a"><p data-i18n="knowledge.faq_a5">S500H内置4G通信模组，设备通电后自动连接云平台。您通过Web端或手机APP即可查看设备运行状态、历史数据、告警信息等。平台基础功能免费使用，高级分析功能可根据需求开通。</p></div>
       </div>
       <div class="faq-item">
-        <div class="faq-q">润滑脂是否需要在特定条件下储存？保质期多长？</div>
-        <div class="faq-a"><p>润滑脂应储存在阴凉干燥处，避免阳光直射和极端温度，推荐储存温度0°C~40°C。不同配方润滑脂保质期不同，一般在1~5年之间。过期的润滑脂可能发生分油、氧化、稠度变化等问题，使用前建议检查外观和状态。</p></div>
+        <div class="faq-q" data-i18n="knowledge.faq_q6">润滑脂是否需要在特定条件下储存？保质期多长？</div>
+        <div class="faq-a"><p data-i18n="knowledge.faq_a6">润滑脂应储存在阴凉干燥处，避免阳光直射和极端温度，推荐储存温度0°C~40°C。不同配方润滑脂保质期不同，一般在1~5年之间。过期的润滑脂可能发生分油、氧化、稠度变化等问题，使用前建议检查外观和状态。</p></div>
       </div>
     </div>
 
-    <p style="text-align:center;margin-top:36px;color:var(--text-muted);font-size:14px">没有找到您关心的问题？<a href="contact.html" style="color:var(--brand-red);font-weight:600">联系我们</a>，为您详细解答。</p>
+    <p style="text-align:center;margin-top:36px;color:var(--text-muted);font-size:14px" data-i18n-html="knowledge.faq_bottom_html">没有找到您关心的问题？<a href="contact.html" style="color:var(--brand-red);font-weight:600">联系我们</a>，为您详细解答。</p>
   </div>
 </section>
 
@@ -707,19 +708,19 @@
         <div class="footer-logo navbar-logo">
           <img src="assets/images/logo.png" alt="蜀利元智能润滑器" class="logo-img" height="40">
         </div>
-        <p class="footer-desc">工业智能润滑解决方案专家，帮助工业企业实现精准润滑管理，降低维护成本，提升设备可靠性。</p>
+        <p class="footer-desc" data-i18n="footer.desc_knowledge">工业智能润滑解决方案专家，帮助工业企业实现精准润滑管理，降低维护成本，提升设备可靠性。</p>
       </div>
-      <div class="footer-col"><h5>快速导航</h5><div class="footer-links"><a href="index.html">首页</a><a href="products.html">产品中心</a><a href="knowledge.html">技术知识</a><a href="solutions.html">解决方案</a><a href="contact.html">联系我们</a></div></div>
-      <div class="footer-col"><h5>产品服务</h5><div class="footer-links"><a href="products.html">S500H智能润滑器</a><a href="knowledge.html">技术知识</a><a href="solutions.html">行业解决方案</a><a href="contact.html">技术咨询</a></div></div>
-      <div class="footer-col"><h5>联系我们</h5><div class="footer-contact"><div class="contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>028-88417995</span></div><div class="contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>sales@shuliyuan.com.cn</span></div></div></div>
+      <div class="footer-col"><h5 data-i18n="footer.quick_nav">快速导航</h5><div class="footer-links"><a href="index.html" data-i18n="nav.home">首页</a><a href="products.html" data-i18n="nav.products">产品中心</a><a href="knowledge.html" data-i18n="nav.knowledge">技术知识</a><a href="solutions.html" data-i18n="nav.solutions">解决方案</a><a href="contact.html" data-i18n="nav.contact">联系我们</a></div></div>
+      <div class="footer-col"><h5 data-i18n="footer.products_services">产品服务</h5><div class="footer-links"><a href="products.html" data-i18n="footer.product_s500h">S500H智能润滑器</a><a href="knowledge.html" data-i18n="footer.product_knowledge">技术知识</a><a href="solutions.html" data-i18n="footer.product_industry">行业解决方案</a><a href="contact.html" data-i18n="footer.product_tech">技术咨询</a></div></div>
+      <div class="footer-col"><h5 data-i18n="footer.contact_us">联系我们</h5><div class="footer-contact"><div class="contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>028-88417995</span></div><div class="contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>sales@shuliyuan.com.cn</span></div></div></div>
     </div>
-    <div class="footer-bottom"><span>&copy; 2024 蜀利元智能润滑器. 保留所有权利.</span><span>精研流动，重塑润滑</span></div>
+    <div class="footer-bottom"><span data-i18n="footer.copyright">&copy; 2024 蜀利元智能润滑器. 保留所有权利.</span><span data-i18n="footer.slogan">精研流动，重塑润滑</span></div>
   </div>
 </footer>
 
 <div class="float-consult">
-  <a href="http://shuliyuan.com.cn/" target="_blank" class="float-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg><span class="float-tooltip">控制中心</span></a>
-  <a href="tel:02888417995" class="float-btn blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span class="float-tooltip">电话咨询</span></a>
+  <a href="http://shuliyuan.com.cn/" target="_blank" class="float-btn" data-i18n-title="nav.control_center"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg><span class="float-tooltip" data-i18n="nav.control_center">控制中心</span></a>
+  <a href="tel:02888417995" class="float-btn blue" data-i18n-title="nav.phone_consult"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span class="float-tooltip" data-i18n="nav.phone_consult">电话咨询</span></a>
 </div>
 
 <script src="assets/js/main.js"></script>
@@ -873,5 +874,6 @@ function calcGrease() {
   monthlyRow.style.display = 'flex';
 }
 </script>
+<script src="assets/js/i18n.js"></script>
 </body>
 </html>

@@ -1,0 +1,56 @@
+/* 语言切换器样式 */
+.lang-switch-wrap {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  padding: 0 12px;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  background: #FFF;
+  color: #4B5563;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 200ms ease;
+  white-space: nowrap;
+  line-height: 1;
+  font-family: inherit;
+}
+
+.lang-switch:hover {
+  border-color: var(--brand-red);
+  color: var(--brand-red);
+  background: rgba(196,18,48,0.04);
+}
+
+.lang-switch .lang-text {
+  pointer-events: none;
+}
+
+/* 移动端语言切换 */
+.mobile-lang {
+  margin: 0;
+  padding: 12px 20px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  justify-content: center;
+}
+
+.mobile-lang .lang-switch {
+  border-color: rgba(255,255,255,0.3);
+  color: #FFF;
+  background: transparent;
+}
+
+.mobile-lang .lang-switch:hover {
+  border-color: #FFF;
+  color: #FFF;
+  background: rgba(255,255,255,0.1);
+}
