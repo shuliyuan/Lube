@@ -102,39 +102,37 @@
       background: #F8FAFD; padding: 28px 28px;
       display: flex; flex-direction: column; gap: 20px;
     }
-    .pm-theory-block { }
+    .pm-theory-block { text-align: center; }
     .pm-theory-block .pm-badge {
       display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 1px;
       padding: 3px 10px; border-radius: 3px; margin-bottom: 10px;
     }
     .pm-badge.blue { background: rgba(30,111,222,0.10); color: var(--brand-blue); }
     .pm-badge.red { background: rgba(196,18,48,0.10); color: var(--brand-red); }
-    .pm-theory-block h4 { font-size: 14px; margin: 0 0 10px; color: var(--text-primary); font-weight: 700; }
+    .pm-theory-block h4 { font-size: 14px; margin: 0 0 14px; color: var(--text-primary); font-weight: 700; }
     .pm-item {
-      display: flex; align-items: flex-start; gap: 8px; margin-bottom: 8px;
+      margin-bottom: 14px; text-align: center;
     }
     .pm-item:last-child { margin-bottom: 0; }
-    .pm-dot {
-      width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0; margin-top: 7px;
-    }
+    .pm-dot { display: none; }
     .pm-dot.blue { background: var(--brand-blue); }
     .pm-dot.red { background: var(--brand-red); }
-    .pm-item-content { font-size: 12px; color: #475569; line-height: 1.65; }
+    .pm-item-content { font-size: 12px; color: #475569; line-height: 1.75; }
     .pm-item-content strong { color: var(--text-primary); font-size: 13px; }
     .pm-percent { font-weight: 800; font-size: 15px; }
     .pm-percent.blue { color: var(--brand-blue); }
     .pm-percent.red { color: var(--brand-red); }
     .pm-formula-mini {
       background: #FFFBEB; border: 1px solid #FDE68A;
-      border-radius: 4px; padding: 8px 10px; margin: 6px 0 2px;
+      border-radius: 4px; padding: 8px 10px; margin: 8px 0 0;
     }
     .pm-formula-mini .m-eq {
-      font-family: 'Georgia','Times New Roman',serif; font-size: 12px;
-      color: var(--text-primary); margin-bottom: 2px; text-align: center;
+      font-family: 'Georgia','Times New Roman',serif; font-size: 14px;
+      color: var(--text-primary); margin-bottom: 3px; text-align: center;
     }
     .pm-formula-mini .m-eq span { font-weight: 700; }
     .pm-formula-mini .m-eq .mc { color: var(--brand-red); }
-    .pm-formula-mini .m-note { font-size: 10px; color: var(--text-muted); text-align: center; }
+    .pm-formula-mini .m-note { font-size: 11px; color: #94A3B8; text-align: center; }
     .pm-sep { height: 1px; background: #E2E8F0; }
 
     /* 右栏：计算器 */
