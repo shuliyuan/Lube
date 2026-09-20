@@ -931,6 +931,8 @@
       'dealer.name_4': '莱州诚亚达商贸有限公司',
       'dealer.name_5': '北矿科技股份有限公司',
       'dealer.name_6': '科峰智能科技（西安）有限公司',
+      'dealer.name_7': '新疆信泽供应链管理有限公司',
+      'dealer.addr_7': '新疆乌鲁木齐高新区（新市区）南纬路街道太原路8号亚中机电市场3栋059号',
 
       // ── 联系页面扩展 ──
       'contact.hero_desc': '针对不同行业的设备润滑痛点，提供定制化智能润滑管理体系',
@@ -1883,6 +1885,8 @@
       'dealer.name_4': 'Laizhou Chengya Da Trading Co., Ltd.',
       'dealer.name_5': 'Bgrimm Technology Co., Ltd.',
       'dealer.name_6': 'Kefeng Intelligent Technology (Xi\'an) Co., Ltd.',
+      'dealer.name_7': 'Xinjiang Xinze Supply Chain Management Co., Ltd.',
+      'dealer.addr_7': 'No. 059, Building 3, Yazhong Electromechanical Market, No. 8 Taiyuan Road, Nanwei Road Subdistrict, High-tech Zone (Xinshi District), Urumqi, Xinjiang',
 
       // ── Contact Extended ──
       'contact.hero_desc': 'Delivering customized intelligent lubrication management systems tailored to industry-specific equipment lubrication challenges',
