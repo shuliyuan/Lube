@@ -925,7 +925,6 @@
       'dealer.count_text': '共 {count} 家经销商',
 
       // ── 经销商名称 ──
-      'dealer.name_1': '上海常旭精密轴承有限公司',
       'dealer.name_2': '杭州瑛睿机械科技有限公司',
       'dealer.name_3': '厦门东南宝智能科技有限公司',
       'dealer.name_4': '莱州诚亚达商贸有限公司',
@@ -1879,7 +1878,6 @@
       'dealer.count_text': '{count} Distributors',
 
       // ── Distributor Names ──
-      'dealer.name_1': 'Shanghai Changxu Precision Bearing Co., Ltd.',
       'dealer.name_2': 'Hangzhou Yingrui Machinery Technology Co., Ltd.',
       'dealer.name_3': 'Xiamen Southeast Bora Intelligent Technology Co., Ltd.',
       'dealer.name_4': 'Laizhou Chengya Da Trading Co., Ltd.',
